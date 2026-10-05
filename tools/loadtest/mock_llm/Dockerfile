@@ -1,7 +1,7 @@
 # Mock OpenAI-compatible LLM server for Onyx load testing.
 # Build from the tools/loadtest/ directory:  docker build -f mock_llm/Dockerfile -t onyx-mock-llm .
 ARG BASE_IMAGE_REGISTRY=docker.io
-FROM ${BASE_IMAGE_REGISTRY}/library/python:3.13-slim@sha256:7c61056e61ac89e852de05f3dc6fa51a6dd2181797bceed46aa725dd7cb2cd3b
+FROM ${BASE_IMAGE_REGISTRY}/library/python:3.13-slim@sha256:3dd7cc108ec1493442514f5c2a871af6af0ec31d768ff6e378a93340c3b3db5f
 
 WORKDIR /app
 
